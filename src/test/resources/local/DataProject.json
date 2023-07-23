@@ -1,0 +1,109 @@
+{
+  "valid": {
+    "body": {
+      "username": "nhtong-gen1",
+      "password": "Gold@12345"
+    }
+  },
+  "invalid": {
+    "body": {
+      "username": "nhtong-gen1",
+      "password": "Gold@123"
+    }
+  },
+  "register": {
+    "body": {
+      "role": "EndUser",
+      "username": "",
+      "email": "admin@envision.com",
+      "password": "Mm@3N3h*QtGWggeG",
+      "countryCode": "CN",
+      "representation": "Company",
+      "companyNo": "MST",
+      "companyName": "Micro Soft",
+      "envisionUsername": "env-user"
+    }
+  },
+  "addPayment": {
+    "body": {
+      "bankAccountNumber": "",
+      "bankName": "VND",
+      "bankAccountName": "Unit",
+      "swiftCode": "1000",
+      "bankAddress": "Ha Noi",
+      "paymentType": "BankTransfer",
+      "comment": "Note"
+    }
+  },
+  "updateStatusPayment": {
+    "body": {
+      "newStatus": "Disabled"
+    }
+  },
+  "depositMoney": {
+    "body": {
+      "depositDate": "2018-01-01",
+      "amount": 0.5,
+      "description": "A lot of money, coming later"
+    }
+  },
+  "withdrawMoney": {
+    "body": {
+      "amount": 5.5,
+      "description": "A lot of money, coming later"
+    }
+  },
+  "transferAnAmount": {
+    "body": {
+      "amount": 0.25
+    }
+  },
+  "changePass": {
+    "body": {
+      "username": "test-changepass",
+      "password": "Gold@12345"
+    }
+  },
+  "updateUserProfile": {
+    "body": {
+      "email": "nhtong@cmcglobal.vn",
+      "company": "CMC",
+      "countryCode": "VN",
+      "address": "11 Duy Tan",
+      "phone": "0988405566",
+      "webSite": "2019-04-01"
+    }
+  },
+  "createAsset": {
+    "body": {
+      "plantName": "",
+      "geoLocation": "35.151486,-94.104172",
+      "systemSize": 2.3,
+      "produceCapacity": 355,
+      "assetType": "Wind",
+      "description": "string",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "address": "2707 Glenview Drive, Singapore 509304"
+    }
+  },
+  "createAssetInvalid": {
+    "body": {
+      "plantName": "VietNam",
+      "geoLocation": "35.151486,-94.104172",
+      "systemSize": 2.3,
+      "produceCapacity": 355,
+      "assetType": "Wind",
+      "description": "string",
+      "countryCode": "SG",
+      "city": "Singapore",
+      "address": "2707 Glenview Drive, Singapore 509304"
+    }
+  },
+  "recIdList": [
+    ""
+  ],
+  "puts": {
+    "recIdList": "[]"
+  }
+}
